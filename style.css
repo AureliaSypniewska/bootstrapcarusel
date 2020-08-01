@@ -1,0 +1,147 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color:#212121;
+	font-size:15px;
+	line-height: 1.5em;
+}
+img {
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h5{
+	font-family: Alegreya;
+}
+h2, .h2{
+	font-size: 37px;
+}
+.h5, h5 {
+    font-size: 23px;
+    font-size: 1.7em;
+}
+.imagestex {
+    padding-top: 20px;
+	display: table;
+}
+.logo{
+	padding: 20px 0;
+}
+.social{
+    text-align: right;
+	font-size: 25px;
+    padding: 33px 0;
+}
+a .fa, a:visited .fa, a:focus .fa{
+	color:#212121;
+}
+a:hover .fa{
+	color:#868686;
+}
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+.container{    
+	max-width: 1170px;
+	}
+
+.navbar-inverse .activ, 
+.navbar-inverse .activ:focus, 
+.navbar-inverse .activ:hover{
+	    color: #fff !important;
+    background-color: #080808 !important;
+}
+
+.sections {
+    min-height: 500px;
+    clear: both;
+}
+.podzial .zero {
+    padding-bottom: 20px;
+}
+.featurette-divider{
+	text-align:justify;
+}
+.imagestex:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.imagestex{
+    padding-top: 20px;
+	display: inline-block;
+}
+.box-inner {
+	height: 200px;
+}
+
+.galeryimg{
+	height:200px;
+	width:auto;
+}
+.carousel-caption h3{
+	font-size: 36px;
+}
+footer, .featurette-divider{
+	clear: both;
+}
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+	margin-top: 0 !important;
+}
+.contacttext{
+	padding:50px 0;
+}
+.contactform{
+	padding:30px 0;
+}
+
+.contactform h4{
+	font-size: 30px;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.contactform p{
+	margin: 0 0 16px;
+	font-size: 15px;
+}
+textarea{
+	width: 100%;
+}
+
+@media (min-width: 992px){
+.featurette-heading {
+    margin-top: 50px;
+}
+}
+@media (min-width: 768px){
+	.navbar-wrapper {
+		margin-top: 100px;
+	}
+	.featurette-heading {
+    font-size: 30px;
+}
+}
+@media (max-width: 768px){
+	.logo{
+		padding-top: 55px;
+		text-align: center;
+	}
+	.social {
+		text-align: center;
+	}
+}
